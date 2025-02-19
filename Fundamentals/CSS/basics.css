@@ -1,0 +1,19 @@
+#p1{
+    color: red;
+}
+#p2{
+    color: orange;
+}
+.p3{
+    color: yellow;
+}
+.p4{
+    color: green;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+}

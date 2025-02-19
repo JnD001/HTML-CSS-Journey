@@ -1,0 +1,17 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    /* display: none;             has if it no longer exist*/
+    /* visibility: hidden;  leave space for the element but it will not be visible */
+
+}
+span{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}

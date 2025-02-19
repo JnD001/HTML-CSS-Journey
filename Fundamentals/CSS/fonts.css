@@ -1,0 +1,14 @@
+@font-face {
+    font-family:NotoSans;
+    src: url(fonts/NotoSansHatran-Regular.ttf);
+}
+
+h1{
+    font-family:"NotoSans","Hatran" ,"courier new";
+}
+p{
+    font-family: "Noto Sans","Hatran" ,"courier new";
+    font-size: 1.5em; /* 1em =100%,1.1em=110% */
+    font-weight: bold;
+    font-style: normal;     /* normal,italic,oblique */
+}

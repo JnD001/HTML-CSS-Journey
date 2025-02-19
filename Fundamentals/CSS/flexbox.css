@@ -1,0 +1,42 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 7em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    border: 10px solid black;
+    height: 90vh;
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* align-content: center;           used along with flex-wrap */
+    /* column-gap: 1em;
+    row-gap: 1em; */
+}
+#box1{
+    background-color: hsl(0, 100%, 70%);
+    align-self: center;
+    order: 1;
+    /* order: -1; */
+}
+#box2{
+    background-color: hsl(120, 100%, 70%);
+    align-self: end;
+}
+#box3{
+    background-color: hsl(240, 100%, 70%);
+}
+#box4{
+    background-color: hsl(60, 100%, 70%);
+}
